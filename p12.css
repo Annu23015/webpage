@@ -1,0 +1,265 @@
+*{
+    margin: 0px;
+    padding:0px;
+    outline:none;
+
+}
+.nav{
+    width: 100%;
+    height:8vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 3px solid black;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+
+}
+.navleft{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "DM Serif Display", serif;
+
+}
+.navleft a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.navleft a:hover{
+    border-bottom: 3px solid black;
+}
+
+.navright{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+      
+    
+}
+.navright a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.navright a:hover{
+    border-bottom: 3px solid black;
+}
+
+.dcont{
+    width: 100%;
+    height: 100vh;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-bottom: 3px solid black;
+    
+}
+.contleft{
+    width: 50%;
+    height:500px ;
+    background:transparent;
+    margin-top:120px;
+}
+.contright{
+    width: 50%;
+    height:500px;
+    margin-top: 60px;
+    padding-right: 100px;
+    
+}
+.left1{
+    width: 500px;
+    height: 120px;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.left2{
+    width:424px ;
+    height: 40px;
+    padding-left: 150px;
+    margin-top: 15px;
+}
+.left3{
+    margin-top: 25px;
+    padding-left: 150px;
+    width:424px ;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.contright img{
+    width: 100%;
+    height: 100%;
+}
+.btns{
+    width:424px;
+    height: 40px;
+    padding-left: 150px;
+
+
+}
+.btn1,.btn2{
+    width:110px;
+    height: 40px;
+    background: transparent;
+    font-weight: bold;
+    
+
+}
+.dbtn3{
+    width: 130px;
+    height: 40px;
+    margin: auto;
+}
+.dbtn3 .btn3{
+    width: 100%;
+    height: 100%;
+    margin-top:20px;
+    background: transparent;
+    font-weight: 400;
+    border:2px solid black;
+    font-size:15px;
+
+}
+
+.btn3:hover{
+    background-color:black ;
+    color: white;
+    font-weight: bold;
+
+}
+.btn1{
+    background-color: white;
+}
+.btn1:hover{
+    background-color:black ;
+    color: white;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color:black ;
+    color: white;
+    font-weight: bold;
+}
+.card{
+    width: 100%;
+    height: 850px;
+}
+.cdiv1
+{
+   margin: 40px auto;
+   width: 620px;
+   height:100px; 
+   font-size: 35px;
+   font-weight: 900;
+   text-align: center;
+
+
+}
+.cdiv2{
+    margin:60px auto 0px;
+    width:400px;
+    height:100px;
+    font-size: 25px;
+    text-align: center;
+    font-weight:400;
+}
+.dcard
+{
+   width: 1000px;
+   height:300px;
+   margin: auto;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.d1,.d2,.d3,.d4
+{
+   width:420px;
+   height: 120px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border:3px solid black;
+
+}
+.d1 .img1{
+    width: 30%;
+    height:120px;
+}
+.d2 .img2{
+    width: 30%;
+    height:120px;
+
+}
+.d3 .img3{
+    width: 30%;
+    height:120px;
+
+}
+.d4 .img4{
+    width: 30%;
+    height:120px;
+
+}
+.dd1
+{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+}
+.downcon{
+    margin: 60px auto 0px;
+    width:500px;
+    height:100px;
+    font-size:35px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 2px black ;
+    text
+}
+
+.last{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last1
+{
+    color: white;
+    font-weight: bolder;
+
+}
+.last2{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+.last3 a{
+
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.last3 a:hover{
+    border-bottom: 2px solid white;
+}
